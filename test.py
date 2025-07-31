@@ -18,7 +18,6 @@ from optuna.visualization.matplotlib import (
 DATA_PATH = 'dataset/df_cleaned.pkl'
 LGBM_PATH = 'models/optuna_lgbm_pipeline.joblib'
 LOGREG_PATH = 'models/logreg_pipeline.joblib'
-OPTUNA_PATH = 'dataset/optuna_study.pkl'
 
 # ------------------------------
 # 데이터 및 모델 로딩
@@ -29,7 +28,7 @@ def load_data():
     df['PAINBACK3M'] = df['PAINBACK3M'].apply(lambda x: 0 if x == 1 else 1)
     return df
 
-@st.cache_resource       
+@st.cache_resource
 def load_models():
     model_lgbm = joblib.load(LGBM_PATH)
     model_logreg = joblib.load(LOGREG_PATH)
@@ -37,7 +36,7 @@ def load_models():
 
 @st.cache_resource
 def load_study():
-    return joblib.load(OPTUNA_PATH)
+    return joblib.load("dataset/optuna_study.pkl")
 
 df = load_data()
 model_lgbm, model_logreg = load_models()
