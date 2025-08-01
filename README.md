@@ -57,7 +57,7 @@ MLproject/
 * **주요 변수**:
 
   * **입력 변수**: 연령, 성별, 인종(RACENEW), 직업/산업군(OCCUPN204, INDSRN204), 주당근로시간(HOURSWRK), 건강 인식(HEALTH), 키/몸무게(HEIGHT/WEIGHT), BMI(BMICALC), 통증이력(PAINARMS3M, PAINLEGS3M)
-  * **타겟 변수**: 허리 통증 정도(PAINBACK3M, 1~~4등급) → 이진화: 1=무통증(0), 2~~4=통증(1)
+  * **타겟 변수**: 허리 통증 정도(PAINBACK3M, 1~4등급) → 이진화: 1=무통증(0), 2~4=통증(1)
 
 ## 주요 작업 흐름
 
