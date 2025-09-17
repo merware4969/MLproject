@@ -94,6 +94,10 @@ MLproject/
 * **튜닝 시각화**: Optuna 히스토리, 파라미터 중요도, Contour Plot
 * **예측 페이지**: 사용자 입력 기반 통증 예측 결과 출력
 
+<img width="497" height="329" alt="Image" src="https://github.com/user-attachments/assets/0a094a5d-a84e-4add-b974-cd92e46e3ac7" />
+<img width="472" height="363" alt="Image" src="https://github.com/user-attachments/assets/f3b6c61c-f7d4-4244-ab45-82f703e7bbf2" />
+<img width="470" height="361" alt="Image" src="https://github.com/user-attachments/assets/c30e45c8-f7f6-4f91-8ed9-a7553ecd0525" />
+
 ## 성과 요약
 
 | 항목           | 내용                                     |
