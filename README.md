@@ -1,7 +1,5 @@
 # ML기반 허리 통증 예측 모델 개발 및 시각화
 
-[프로젝트 GitHub 링크](https://github.com/merware4969/MLproject)
-
 ## GitHub 디렉토리 구조 및 구성 설명
 
 ```
